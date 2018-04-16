@@ -1,0 +1,79 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Chivo', sans-serif;
+  color: #220f76;
+  padding-left: 1em;
+  font-style: bold;
+}
+
+h2 {
+  font-family: 'Chivo', sans-serif;
+  color: #220f76;
+}
+
+h3 {
+  font-family: 'Chivo', sans-serif;
+  /* color: #220f76; */
+  padding-left: 2em;
+  /* font-style: italic; */
+}
+
+html, body {
+  /* Sets default font-size to 16px, ensuring 1em = 16px; */
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.container p {
+  font-style: italic;
+}
+
+.story {
+  max-width: 980px;
+  padding: 1em;
+}
+
+.photo_1 {
+  padding-left: 2em;
+  max-width: 980px;
+  align-items: left;
+}
+
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
+
+td, th {
+  width: 20%;
+  display: inline-block;
+}
+
+input {
+  max-width: 100%;
+  display: block;
+}
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+  td, th {
+    width: auto;
+    display: table-cell;
+  }
+}
+
+@media(min-width: 729px) {
+  /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+}

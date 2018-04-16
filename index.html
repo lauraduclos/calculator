@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X=UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Harm Reduction Calculator</title>
+
+    <!-- Insert font link here -->
+    <link href="https://fonts.googleapis.com/css?family=Chivo|Source+Sans+Pro" rel="stylesheet">
+    <!-- link to stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <div class="intro">
+      <h1> 26 Years of Harm Reduction Withstands the Tests of Drug Epidemics </h1>
+      <h3> By Laura Duclos </h3>
+    </div>
+
+    <div class="photo_1">
+
+      <img class="needle" src="photos/needle_1.jpg">
+      <figcaption> A used needle lays among litter near a harm reduction center in Washington Heights. </figcaption>
+      <figcaption> Photo by Laura Duclos </figcaption>
+    </div>
+
+
+    <div class="story">
+
+      <p>New York State began a research program in 1988 where drug injectors would be provided with sterile syringes in hopes they would seek recovery treatment. According to the state website, this project lasted hardly over a year - but the idea for creating
+        a safe space for drug users, HIV patients, homeless people and others who lived outside the boundaries of society remained. </p>
+      <p> “Harm reduction is sort of like the missing piece,” said Liz Evans, Executive Director at Washington Heights Corner Project. “We have this preconceived idea of how to help people who use drugs and the vast majority of interventions we think of are
+        about getting people off drugs.” </p>
+      <p> North America has the world’s highest percentage of drug related deaths at 25 percent. The United States specifically has the highest death rate – increasing 137 percent since 2000. </p>
+      <p>In 2014, 61 percent of mortalities were in connection with opioids. </p>
+      <p>Evans said at any given time, one out of every ten drug users are in an abstinence-based treatment program, which leaves nine people who have not been reached at any time by a community platform. She feels that harm reduction closes the loop on
+        missed opportunities to help people while they are in a drug-using state of life. </p>
+      <p>Almost 30 years ago, the country was immersed in an HIV/AIDS epidemic. The New York State Health Department issued emergency regulations that allowed programs like harm reduction centers to collect and distribute hypodermic syringes and needles
+        without a prescription to injection drug users to further prevent HIV transmission. </p>
+      <p>These regulations, (specifically Section 80.135 of Title 10 of New York Official Codes, Rules and Regulations) gave funding and opportunity for centers to create a community where people who were battling disease, drug use and homelessness had a
+        chance to a better quality of life. </p>
+      <p>Since 1992, around 200,000 people in New York have been enrolled in and helped by the assistance programs harm reduction centers provide. In 2014, there were 14 registered sites, according to the Health Department website, meaning over 12,000 people
+        have been helped at each location. </p>
+
+
+      <div class="container">
+        <h2> How many people do harm reduction centers help?</h2>
+        <p> The following calculator will tell you how many people can be helped by placing harm reduction centers within a community. </p>
+
+        <p> This estimate is based on data from New York Health Department to show a center's possible impact. </p>
+
+        <table>
+          <tr>
+            <!-- <th></th> -->
+            <th>Population</th>
+            <th>Number of Centers</th>
+            <!-- <th>Renew</th> -->
+            <!-- <th>People Helped</th> too confusing if adding h2-->
+            <!-- <th>Worth</th> -->
+          </tr>
+
+          <!-- paste from class -->
+
+          <tr class="item" data-pop-percent="0">
+
+            <td><input type="number" class="qty_p" placeholder="1,000" /></td>
+            <td><input type="number" class="qty_c" placeholder="0" /></td>
+            <td class="post_total"><span></span></td>
+            <!-- <td class="post_total">$<span></span></td> -->
+          </tr>
+          <!-- <tr class="item" data-tariff-percent="25">
+          <td>Steel materials</td>
+          <td><input type="number" class="qty" /></td>
+          <td><input type="number" class="cost" /></td>
+          <td class="pre_total">$<span></span></td>
+          <td class="post_total">$<span></span></td>
+        </tr> -->
+          <!-- <tr class="item" data-tariff-percent="10">
+          <td>Aluminum materials</td>
+          <td><input type="number" class="qty" /></td>
+          <td><input type="number" class="cost" /></td>
+          <td class="pre_total">$<span></span></td>
+          <td class="post_total">$<span></span></td>
+        </tr> -->
+        </table>
+
+        <button class="calculate">Calculate</button>
+        <!--
+      <div id="pre_total" class="total">
+        <h2>Cost before tariffs</h2>
+        <span></span>
+      </div> -->
+
+        <div id="post_total" class="total">
+          <h2>People Helped by Harm Reduction Centers</h2>
+          <span></span>
+        </div>
+      </div>
+
+      <!-- end paste from class -->
+
+
+
+
+      <!-- calling jquery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- calling javascript -->
+      <script src="main.js">
+      </script>
+
+  </body>
+
+</html>
